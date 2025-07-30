@@ -169,5 +169,36 @@
       }
     ],
     "template": "We have crafted a storyline for our targeted {{targetProduct}}. It goes as follow: {{storyline}}. Could you sharpen this story up, including the {{targetProduct}} aimed strategy: {{targetProductStrategy}}."
-  }
+  },
+  "readinesskpi": {
+    "name": "Readiness roadmap - KPIs",
+    "title": "Prompt Generator – Readiness roadmap KPI",
+    "description": "Fill out the fields below to get advice based on the readiness scan outcome. Don't forget to ATTACH the readiness result in chatGPT",
+    "buttonText": "Generate Prompt",
+    "copyButtonText": "Copy Prompt",
+    "errorText": "*Please fill out all the fields*",
+    "fields": [
+      {
+        "id": "companyName",
+        "label": "Company Name",
+        "placeholder": "Company Name"
+      },
+      {
+        "id": "propositionName",
+        "label": "Proposition Name",
+        "placeholder": "Name of customer's proposition"
+      },
+      {
+        "id": "numberOfTargetAccount",
+        "label": "Number of Target Account",
+        "placeholder": "number of target accounts in the target account list, i.e. 80"
+      },
+      {
+        "id": "ICP",
+        "label": "Ideal Customer Profile",
+        "placeholder": "add the customer’s ICP description including target marketing, company size, geography, characteristic, cultural and strategic fit"
+      }
+    ],
+    "template": "I would like to tweak the initial the KPI's chosen by {{companyName}} for {{propositionName}} during the ABM workshop-details attached, but I am wondering if the numbers and KPI's numbers are realistic when you look at them from a market perspective and in combination with the target account list, assuming our target list is {{numberOfTargetAccount}} companies. Also, their Ideal Customer Profile looks like this: {{ICP}} for {{propositionName}}. Can you make a critical and realistic overview of these kpi's?"
+  },
 }
