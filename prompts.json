@@ -201,5 +201,5 @@
       }
     ],
     "template": "I would like to tweak the initial the KPI's chosen by {{companyName}} for {{propositionName}} during the ABM workshop-details attached, but I am wondering if the numbers and KPI's numbers are realistic when you look at them from a market perspective and in combination with the target account list, assuming our target list is {{numberOfTargetAccount}} companies. Also, their Ideal Customer Profile looks like this: {{ICP}} for {{propositionName}}. Can you make a critical and realistic overview of these kpi's?"
-  },
+  }
 }
