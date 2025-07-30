@@ -170,6 +170,7 @@
     ],
     "template": "We have crafted a storyline for our targeted {{targetProduct}}. It goes as follow: {{storyline}}. Could you sharpen this story up, including the {{targetProduct}} aimed strategy: {{targetProductStrategy}}."
   },
+  
   "readinesskpi": {
     "name": "Readiness roadmap - KPIs",
     "title": "Prompt Generator – Readiness roadmap KPI",
