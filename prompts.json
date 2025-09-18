@@ -200,7 +200,8 @@
         "placeholder": "Target market, company size, geography, characteristics, cultural/strategic fit"
       }
     ],
-    "template": "I would like to tweak the initial KPI's chosen by {{companyName}} for {{propositionName}} during the ABM workshop (details attached), but I am wondering if the numbers and KPI's are realistic when you look at them from a market perspective and in combination with the target account list, assuming our target list is {{numberTA}} companies. Also, their Ideal Customer Profile looks like this: {{idealCustomerProfile}} for {{propositionName}}. Can you make a critical and realistic overview of these KPI's?"
+    "template": "I would like to tweak the initial KPI's chosen by {{companyName}} for {{propositionName}} during the ABM workshop (details attached), but I am wondering if the numbers and KPI's are realistic when you look at them from a market perspective and in combination with the target account list, assuming our target list is {{numberTA}} companies. Also, their Ideal Customer Profile looks like this: {{idealCustomerProfile}} for {{propositionName}}. Can you make a critical and realistic overview of these KPI's?",
+    "note": "attach the slide/kpi's for short/mid/long term when copying the prompt into chatgpt"
   },
 
   "abmScan": {
@@ -217,6 +218,7 @@
         "placeholder": "Customer’s Company Name"
       }
     ],
-    "template": "We have asked the marketing and sales team from {{customerName}} to fill in an ABM readiness scan, to see where they stand as a prep for their ABM approach. In the attachment you can find the outcomes. The outcomes are organized by theme: Can you give me an overview of items that stand out (higher or lower than a 3-score) and the things that should or could be improved (to at least a 4-score) or that could be leveraged on (when scored above 3)? What advice would you give this team, both from a marketing and sales point of view?"
+    "template": "We have asked the marketing and sales team from {{customerName}} to fill in an ABM readiness scan, to see where they stand as a prep for their ABM approach. In the attachment you can find the outcomes. The outcomes are organized by theme: Can you give me an overview of items that stand out (higher or lower than a 3-score) and the things that should or could be improved (to at least a 4-score) or that could be leveraged on (when scored above 3)? What advice would you give this team, both from a marketing and sales point of view?",
+    "note": "attach the overview outcomes/slides when copying the prompt into chatgpt"
   }
 }

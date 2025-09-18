@@ -305,6 +305,30 @@ textarea {
   border-radius: 50px;
 }
 
+/* Note (uitlegtekst) */
+.note-text {
+  background: #FFF8F7;            /* matcht je modal/background */
+  border-left: 4px solid #ED5B45; /* jouw accentkleur */
+  color: #0d0d0d;
+  font-family: 'Fira Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 10px 12px;
+  margin: 10px 0 15px;            /* ruimte t.o.v. velden/knoppen */
+  border-radius: 6px;
+}
+
+/* Optioneel: klein labeltje vóór de note */
+.note-text::before {
+  content: "Note";
+  display: inline-block;
+  font-weight: 700;
+  margin-right: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
+}
 
 /* --- Tabs Style --- */
 .tab-container {

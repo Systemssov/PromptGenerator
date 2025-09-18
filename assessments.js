@@ -89,6 +89,14 @@ function buildForm() {
     form.appendChild(document.createElement("br"));
   });
 
+  // Voeg de note toe als die bestaat
+  if (config.note) {
+    const noteEl = document.createElement('p');
+    noteEl.className = 'note-text'; // eventueel stylen in CSS
+    noteEl.textContent = config.note;
+    form.appendChild(noteEl);
+  }
+
   const error = document.createElement("p");
   error.id = "errorMsg";
   error.className = "hidden error-msg bg-danger border border-1 border-dark";
