@@ -169,5 +169,54 @@
       }
     ],
     "template": "We have crafted a storyline for our targeted {{targetProduct}}. It goes as follow: {{storyline}}. Could you sharpen this story up, including the {{targetProduct}} aimed strategy: {{targetProductStrategy}}."
+  },
+
+  "abmKpi": {
+    "name": "ABM – Readiness Roadmap – KPI's",
+    "title": "Prompt Generator – ABM KPI's",
+    "description": "Fill out the fields below to generate a prompt for evaluating ABM KPI's.",
+    "buttonText": "Generate Prompt",
+    "copyButtonText": "Copy Prompt",
+    "errorText": "*Please fill out all the fields*",
+    "fields": [
+      {
+        "id": "companyName",
+        "label": "Company Name",
+        "placeholder": "Customer’s Company Name"
+      },
+      {
+        "id": "propositionName",
+        "label": "Proposition Name",
+        "placeholder": "Customer’s Proposition"
+      },
+      {
+        "id": "numberTA",
+        "label": "Number of Target Accounts",
+        "placeholder": "e.g. 80"
+      },
+      {
+        "id": "idealCustomerProfile",
+        "label": "Ideal Customer Profile",
+        "placeholder": "Target market, company size, geography, characteristics, cultural/strategic fit"
+      }
+    ],
+    "template": "I would like to tweak the initial KPI's chosen by {{companyName}} for {{propositionName}} during the ABM workshop (details attached), but I am wondering if the numbers and KPI's are realistic when you look at them from a market perspective and in combination with the target account list, assuming our target list is {{numberTA}} companies. Also, their Ideal Customer Profile looks like this: {{idealCustomerProfile}} for {{propositionName}}. Can you make a critical and realistic overview of these KPI's?"
+  },
+
+  "abmScan": {
+    "name": "ABM – Readiness Roadmap – Scan",
+    "title": "Prompt Generator – ABM Readiness Scan",
+    "description": "Fill out the fields below to generate a prompt for evaluating an ABM readiness scan.",
+    "buttonText": "Generate Prompt",
+    "copyButtonText": "Copy Prompt",
+    "errorText": "*Please fill out all the fields*",
+    "fields": [
+      {
+        "id": "customerName",
+        "label": "Customer Name",
+        "placeholder": "Customer’s Company Name"
+      }
+    ],
+    "template": "We have asked the marketing and sales team from {{customerName}} to fill in an ABM readiness scan, to see where they stand as a prep for their ABM approach. In the attachment you can find the outcomes. The outcomes are organized by theme: Can you give me an overview of items that stand out (higher or lower than a 3-score) and the things that should or could be improved (to at least a 4-score) or that could be leveraged on (when scored above 3)? What advice would you give this team, both from a marketing and sales point of view?"
   }
 }
