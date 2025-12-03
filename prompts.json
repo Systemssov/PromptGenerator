@@ -53,7 +53,7 @@
         "placeholder": "https://example.com/register"
       }
     ],
-    "template": "You are a B2B Marketer promoting an upcoming {{eventFormat}} B2B event on LinkedIn. The event is called {{eventName}} happening on {{eventDate}} at {{eventTime}}. The speakers are {{speakerName}} from {{speakerCompany}}. The target audience are {{targetAudience}}, and the session covers {{topic}}. People can register to the event on this page {{landingPage}}. Create a LinkedIn post that is engaging, encourages sign-ups, and highlights what attendees will gain. Tone of voice is approachable and vibrant. Include a call-to-action and mention that it's free. Keep it under 150 words. Give me multiple versions: one for the initial announcement, one reminder a week before the event, and a final reminder one day before the event. Avoid using bullet points and limit the use of emojis."
+    "template": "You are a B2B Marketer promoting an upcoming {{eventFormat}} B2B event on LinkedIn. The event is called {{eventName}} happening on {{eventDate}} at {{eventTime}}. The speakers are {{speakerName}} from {{speakerCompany}}. The target audience are {{targetAudience}}, and the session covers {{topic}}. People can register to the event on this page {{landingPage}}. Create a LinkedIn post that is engaging, encourages sign-ups, and highlights what attendees will gain. Tone of voice is approachable and vibrant. Include a call-to-action and mention that it's free. Keep it under 150 words. Imagine this event happens in 6 weeks, give me multiple posts that can be spread throughout. Avoid using bullet points and limit the use of emojis."
   },
   "thoughtLeadership": {
     "name": "Thought Leadership Promotion",
